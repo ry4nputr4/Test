@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/ryan.css">  
+  <title>Frontend Mentor | Job Listings</title>
+  <!-- Ryan Permana Putra -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="header_desktop header_top">
+    <img class="img-fluid" src="images/bg-header-desktop.svg" alt="">
+  </div>
+  
+
+  <div class="container">
+
+    <div class="card menu_card mobile_menu">
+      <div class="row">
+        <div class="col-8">
+          <div class="btn-toolbar">
+            <button type="button" class="btn btn_icon">Frontend <i class="fa fa-close img_icon"></i></button>
+          <button type="button" class="btn btn_icon">CSS <i class="fa fa-close img_icon"></i></button>
+          <button type="button" class="btn btn_icon">Javascript <i class="fa fa-close img_icon"></i></button>          
+          </div>          
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <button class="btn btn_clear"></i> Clear</button>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="card menu_card active_selected">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/photosnap.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">Photosnap</td> 
+                <td><span class="badge badge-pill badge-success custom_badge">NEW!</span></td>
+                <td><span class="badge badge-pill badge-dark">FEATURED</span></td>               
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Senior Frontend Developer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">1d ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> Full Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> USA only</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">          
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Frontend</button>
+              <button class="btn mr-2 custom_button spek_kanan">Senior</button>
+              <button class="btn mr-2 custom_button spek_kanan">HTML</button>
+              <button class="btn mr-2 custom_button spek_kanan">CSS</button>
+              <button class="btn custom_button spek_kanan">Javascript</button>
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child active_selected">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/manage.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">Manage</td> 
+                <td><span class="badge badge-pill badge-success custom_badge">NEW!</span></td>
+                <td><span class="badge badge-pill badge-dark">FEATURED</span></td>               
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Fullstack Developer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">1d ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Part Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> Remote</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Fullstack</button>
+              <button class="btn mr-2 custom_button spek_kanan">Midweight</button>
+              <button class="btn mr-2 custom_button spek_kanan">Python</button>
+              <button class="btn mr-2 custom_button spek_kanan">React</button>              
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/account.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">Account</td> 
+                <td><span class="badge badge-pill badge-success custom_badge">NEW!</span></td>
+                               
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Junior Frontend Developer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">2d ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Part Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> USA only</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Frontend</button>
+              <button class="btn mr-2 custom_button spek_kanan">Junior</button>              
+              <button class="btn mr-2 custom_button spek_kanan">React</button>  
+              <button class="btn mr-2 custom_button spek_kanan">Sass</button>
+              <button class="btn mr-2 custom_button spek_kanan">JavaScript</button>            
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/myhome.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">MyHome</td> 
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Junior Frontend Developer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">5d ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Contract</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> USA only</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Frontend</button>
+              <button class="btn mr-2 custom_button spek_kanan">Junior</button>              
+              <button class="btn mr-2 custom_button spek_kanan">CSS</button>  
+              <button class="btn mr-2 custom_button spek_kanan">JavaScript</button>            
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/loop-studios.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">Loop Studios</td>
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Software Engineer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">1w ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Full Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> Worldwide</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Fullstack</button>
+              <button class="btn mr-2 custom_button spek_kanan">Midweight</button>              
+              <button class="btn mr-2 custom_button spek_kanan">JavaScript</button> 
+              <button class="btn mr-2 custom_button spek_kanan">Sass</button> 
+              <button class="btn mr-2 custom_button spek_kanan">Ruby</button>            
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/faceit.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">FaceIt</td>
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Junior Backend Developer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">2w ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Full Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> UK only</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Backend</button>
+              <button class="btn mr-2 custom_button spek_kanan">Junior</button>              
+              <button class="btn mr-2 custom_button spek_kanan">Ruby</button> 
+              <button class="btn mr-2 custom_button spek_kanan">RoR</button>                           
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/shortly.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">Shortly</td>
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Junior Developer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">2w ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Full Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> Worldwide</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Frontend</button>
+              <button class="btn mr-2 custom_button spek_kanan">Junior</button>              
+              <button class="btn mr-2 custom_button spek_kanan">HTML</button> 
+              <button class="btn mr-2 custom_button spek_kanan">JavaScript</button> 
+              <button class="btn mr-2 custom_button spek_kanan">Sass</button>                           
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/insure.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">Insure</td>
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Junior Frontend Developer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">2w ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Full Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> USA only</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Frontend</button>
+              <button class="btn mr-2 custom_button spek_kanan">Junior</button>  
+              <button class="btn mr-2 custom_button spek_kanan">JavaScript</button>            
+              <button class="btn mr-2 custom_button spek_kanan">Vue</button>               
+              <button class="btn mr-2 custom_button spek_kanan">Sass</button>                           
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/eyecam-co.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">Eyecam Co.</td>
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Full Stack Engineer</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">3w ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Full Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> Worldwide</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Fullstack</button>
+              <button class="btn mr-2 custom_button spek_kanan">Midweight</button>  
+              <button class="btn mr-2 custom_button spek_kanan">JavaScript</button>            
+              <button class="btn mr-2 custom_button spek_kanan">Python</button>               
+              <button class="btn mr-2 custom_button spek_kanan">Django</button>                           
+            </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="card menu_card_child">
+      <div class="row">
+        <div class="col-md-2 foto_container">          
+            <img class="img-fluid foto_profil center" src="images/the-air-filter-company.svg" alt="">          
+        </div>
+        <div class="col-md-4 loker_grup d-flex justify-content-center align-items-center">
+          <table class="table ket_loker">              
+            <tbody>
+              <tr>                  
+                <td class="nama_perusahaan">The Air Filter Company</td>
+              </tr>
+              <tr>                  
+                <td class="profesi" colspan="3">Front-end Dev</td>                                
+              </tr>
+              <tr>                  
+                <td class="ket_bawah">1mo ago</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span>  Part Time</td> 
+                <td class="ket_bawah"><span style='font-size:10px;'>&#9679;</span> Worldwide</td>              
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center tools_grup">
+            <div class="btn-toolbar">
+              <button class="btn mr-2 custom_button spek_kanan">Frontend</button>
+              <button class="btn mr-2 custom_button spek_kanan">Junior</button>  
+              <button class="btn mr-2 custom_button spek_kanan">JavaScript</button>            
+              <button class="btn mr-2 custom_button spek_kanan">React</button>               
+              <button class="btn mr-2 custom_button spek_kanan">Sass</button>                           
+            </div>          
+        </div>
+      </div>
+    </div>
+
+  </div> 
+
+  
+
+ 
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
